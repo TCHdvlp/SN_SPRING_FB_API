@@ -17,9 +17,9 @@ Spring courses for ScholaNova
 
 ### Create a repository to share your code
 
-## Run a Hellow World SpringBoot application
+### Run a Hellow World SpringBoot application
 
-### Create a REST API where the user can list football teams enlisted in 2019 Champions league
+## Create a REST API where the user can list football teams enlisted in 2019 Champions league
 
 Create an account on https://www.football-data.org/ 
 Use the football-data API as your data source
@@ -27,7 +27,7 @@ Do not store your API key in the repository !
 Make a README so I can run your project localy
 Use a proper logger to log activity on your server
 
-1. List football teams engaged in the 2019 CL on your endpoint `/teams`
+### List football teams engaged in the 2019 CL on your endpoint `/teams`
 The representation of a team must be
     - it's ID
     - it's name
@@ -36,16 +36,16 @@ The representation of a team must be
 
 **Make a step-by-step design and feel free to validate each steps with me**
 
-2. The user can see a specific team if he has its ID `/teams/1234` 
+### The user can see a specific team if he has its ID `/teams/1234` 
 Only teams that have participated in this competition can be displayed !
 
-3. Sort teams with the request param `sort`
+### Sort teams with the request param `sort`
 Sort teams by name, descending
 Sort teams by year of creation, oldest first
 
-4. List players of a team on `/teams/{team_id}/players`
+### List players of a team on `/teams/{team_id}/players`
 
-* To go further...
+## To go further...
 
 Use a correlation ID to link logs together
 Make your API run on port 5001
